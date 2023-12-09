@@ -1,20 +1,17 @@
 #textblock {
-
-    height: 100vh;
-    padding-top: 15rem;
+    background-color: rgba(0, 0, 0, 0.42);
+    /*height: 100vh;*/
 }
 
 #transitionblock {
     background-color: #424242;
     height: 100vh;
-
 }
 
 #textblock-container {
     width: 50%;
-    padding: 5rem;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.42);
+    padding-top: 22rem;
 }
 
 #textblock-title {
@@ -75,35 +72,35 @@
 }
 
 #starback {
-    background-image: url(./images/background-stars.png);
+    background-image: url(../images/background-stars.png);
     background-size: cover;
 }
 
 #deathstar {
-    background-image: url(./images/deathstar.png);
+    background-image: url(../images/deathstar.png);
     background-size: cover;
 }
 
 #name {
-    background-image: url(./images/name.png);
+    background-image: url(../images/name.png);
     background-repeat: no-repeat;
 }
 
 #enterprise {
-    background-image: url(./images/enterprise.png);
+    background-image: url(../images/enterprise.png);
     background-repeat: no-repeat;
 }
 
 #atlantabackground {
-    background-image: url(./images/atlantabackground.png);
+    background-image: url(../images/atlantabackground.png);
 }
 
 #jeremy {
-    background-image: url(./images/jeremy.png);
+    background-image: url(../images/jeremy.png);
     background-size: cover;
 }
 
 #atlantaforeground {
-    background-image: url(./images/atlantaforeground.png);
+    background-image: url(../images/atlantaforeground.png);
 
 }

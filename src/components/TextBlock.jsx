@@ -18,7 +18,6 @@ function TextBlock() {
                     My ardor lies in building, creating, and devising solutions for intricate problems, but above all, I am fueled by a love for continuous learning.
                 </p>
             </div>
-            <footer id='textblock-footer'>Copyright: <a id="textblock-devsense" href="https://www.linkedin.com/in/jeremyhuntsman/">Jeremy Huntsman</a></footer>
         </div>
     );
 }
