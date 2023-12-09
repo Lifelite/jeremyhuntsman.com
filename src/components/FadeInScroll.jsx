@@ -1,5 +1,5 @@
 import { useScroll, animated } from '@react-spring/web'
-// import propTypes from "prop-types";
+import propTypes from "prop-types";
 
 export function FadeInScroll(props) {
     const {
@@ -16,5 +16,9 @@ export function FadeInScroll(props) {
 
 }
 
-// FadeInScroll.propTypes = {
-// }
+FadeInScroll.propTypes = {
+    children: propTypes.oneOfType([
+        propTypes.arrayOf(propTypes.node),
+        propTypes.node
+    ]).isRequired
+}
