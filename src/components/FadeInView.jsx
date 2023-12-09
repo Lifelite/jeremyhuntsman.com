@@ -1,6 +1,6 @@
 import { useInView, animated } from '@react-spring/web';
 import '../styles/FadeInContainer.css';
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 export default function FadeInView (props) {
     const {
@@ -31,6 +31,9 @@ export default function FadeInView (props) {
 }
 
 FadeInView.propTypes = {
-    children: PropTypes.object,
-};
+    children: propTypes.oneOfType([
+        propTypes.arrayOf(propTypes.node),
+        propTypes.node
+    ]).isRequired
+}
 
